@@ -39,7 +39,7 @@ client.on('message', message => {
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
     client.user.setGame(argresult, "https://www.twitch.tv/xnxc");
-      message.channel.send(`**:white_check_mark:DONE   ${argresult}**`)
+      message.channel.send(`**:white_check_mark: Done   ${argresult}**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
