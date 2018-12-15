@@ -37,7 +37,7 @@ client.on('message', message => {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(`**  dun ${argresult}**`)
   } else 
-  if (message.content.startsWith(adminprefix + 'stream')) {
+  if (message.content.startsWith(adminprefix + 'st')) {
     client.user.setGame(argresult, "https://www.twitch.tv/xnxc");
       message.channel.send(`**DONE   ${argresult}**`)
   }
