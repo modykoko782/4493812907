@@ -16,7 +16,7 @@ client.on('ready', function() {
 
 
 
-const developers = ["449381290748280852"]
+const developers = ["369118921153970177"]
 const adminprefix = "y";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -52,4 +52,4 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 });
 
 
-client.login("NDQ5MzgxMjkwNzQ4MjgwODUy.Duw_pA.vDVNwW5QfVq17seDkRtqVFeRiYY");
+client.login("MzY5MTE4OTIxMTUzOTcwMTc3.DvfCsA.ZmjzS1Eo-tLI9pRym2hMaxkiwMk");
